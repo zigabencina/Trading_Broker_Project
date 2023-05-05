@@ -49,5 +49,14 @@ namespace Trading_Broker_Project
         {
             //register class / form
         }
+        public string getUsername()
+        {
+            return username.Text;
+        }
+        public string getPass()
+        {
+            return password.Text;
+        }
+
     }
 }

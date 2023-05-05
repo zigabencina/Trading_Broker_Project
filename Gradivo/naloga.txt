@@ -1,0 +1,18 @@
+Login / register interface
+
+Register: Register_Form
+
+- username
+- password
+- name
+- surename
+- date of birth // at least 18
+
+Experienced enough? Experience_Form
+
+
+
+
+Main program:
+
+- Refresh time Timer class ontimedevent

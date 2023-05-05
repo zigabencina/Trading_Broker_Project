@@ -36,7 +36,7 @@
             this.usr = new System.Windows.Forms.Label();
             this.Passwrd = new System.Windows.Forms.Label();
             this.username = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.password = new System.Windows.Forms.TextBox();
             this.frogor = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.user)).BeginInit();
@@ -116,12 +116,12 @@
             this.username.TabIndex = 7;
             this.username.TextChanged += new System.EventHandler(this.username_TextChanged);
             // 
-            // textBox1
+            // password
             // 
-            this.textBox1.Location = new System.Drawing.Point(490, 342);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(296, 20);
-            this.textBox1.TabIndex = 8;
+            this.password.Location = new System.Drawing.Point(490, 342);
+            this.password.Name = "password";
+            this.password.Size = new System.Drawing.Size(296, 20);
+            this.password.TabIndex = 8;
             // 
             // frogor
             // 
@@ -143,7 +143,7 @@
             this.ClientSize = new System.Drawing.Size(1271, 633);
             this.Controls.Add(this.frogor);
             this.Controls.Add(this.user);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.password);
             this.Controls.Add(this.username);
             this.Controls.Add(this.Passwrd);
             this.Controls.Add(this.usr);
@@ -168,7 +168,7 @@
         private System.Windows.Forms.Label usr;
         private System.Windows.Forms.Label Passwrd;
         private System.Windows.Forms.TextBox username;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.Label frogor;
     }
 }
