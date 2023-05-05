@@ -1,0 +1,1 @@
+c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\Trading_Broker_Project.exe.config
