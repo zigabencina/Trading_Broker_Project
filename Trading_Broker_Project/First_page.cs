@@ -37,9 +37,11 @@ namespace Trading_Broker_Project
         private void login_Click(object sender, EventArgs e)
         {
             //login class / form
+            this.Hide();
             main m = new main();
-            this.Close();
-            m.Show();
+            
+            m.ShowDialog();
+            this.Show();
             
         }
 

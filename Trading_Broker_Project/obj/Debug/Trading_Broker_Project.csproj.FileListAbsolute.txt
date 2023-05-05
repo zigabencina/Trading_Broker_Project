@@ -7,3 +7,4 @@ c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trad
 c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.csproj.GenerateResource.Cache
 c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.exe
 c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.pdb
+C:\Users\Dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.main.resources
