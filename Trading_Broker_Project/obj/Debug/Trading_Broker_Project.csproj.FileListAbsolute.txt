@@ -1,1 +1,9 @@
 c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\Trading_Broker_Project.exe.config
+c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\Trading_Broker_Project.exe
+c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\Trading_Broker_Project.pdb
+c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.csprojResolveAssemblyReference.cache
+c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.First_page.resources
+c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.Properties.Resources.resources
+c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.csproj.GenerateResource.Cache
+c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.exe
+c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.pdb
