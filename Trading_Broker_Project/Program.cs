@@ -11,9 +11,10 @@ namespace Trading_Broker_Project
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        private static readonly User[] Users = CsvToUser.GetUsers();
+        
         /// 
-        [STAThread]
+        
+
 
         static void Main()
         {
@@ -22,25 +23,28 @@ namespace Trading_Broker_Project
             Application.Run(new First_page());
 
 
-
+            
 
 
         }
-        private static void login()
+        public static readonly User[] Users = CsvToUser.GetUsers();
+        public static bool Login(string username,string password)
         {
             First_page f = new First_page();
 
-
-            var username = f.getUsername();
-            var password = f.getPass();
-
-            var user = Users.FirstOrDefault(u => u.Username == username && u.Password == password);
-
-            if(user != null)
+            var user = Users.FirstOrDefault(u => u.Username == username && u.Password == password); // lamba funkcija u postane user ce je username in password isti kot uporabnikov
+            // unnecessary if :)
+            if (user != null)
             {
-                // naredi
-            }
+                
 
+                return true;
+            }
+            else {
+                MessageBox.Show("FoRGoR? 💀");
+
+                return false;
+            }
         }
     }
 }

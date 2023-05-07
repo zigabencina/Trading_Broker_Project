@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Trading_Broker_Project
 {
@@ -15,8 +16,8 @@ namespace Trading_Broker_Project
         public First_page()
         {
             InitializeComponent();
-            
-            
+            password.PasswordChar = '*';
+
         }
 
         private void usr_Click(object sender, EventArgs e)
@@ -31,23 +32,36 @@ namespace Trading_Broker_Project
 
         private void frogor_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Reset_password r = new Reset_password();
 
+            r.ShowDialog();
+            this.Show();
         }
 
         private void login_Click(object sender, EventArgs e)
         {
             //login class / form
-            this.Hide();
-            main m = new main();
+            if (Program.Login(username.Text, password.Text))
+            {
+                this.Hide();
+                main m = new main();
+
+                m.ShowDialog();
+                this.Show();
+            }
             
-            m.ShowDialog();
-            this.Show();
+               
             
         }
 
         private void register_Click(object sender, EventArgs e)
         {
             //register class / form
+            this.Hide();
+            Register r = new Register();
+            r.ShowDialog();
+            this.Show();
         }
         public string getUsername()
         {
@@ -58,5 +72,9 @@ namespace Trading_Broker_Project
             return password.Text;
         }
 
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

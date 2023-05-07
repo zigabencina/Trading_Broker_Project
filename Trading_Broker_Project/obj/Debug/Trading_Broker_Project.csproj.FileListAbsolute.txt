@@ -8,3 +8,27 @@ c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trad
 c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.exe
 c:\users\dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.pdb
 C:\Users\Dijak\documents\visual studio 2015\Projects\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.main.resources
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\Trading_Broker_Project.exe.config
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\Trading_Broker_Project.exe
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\Trading_Broker_Project.pdb
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\CsvHelper.dll
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\System.Buffers.dll
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\System.Memory.dll
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\System.ValueTuple.dll
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\CsvHelper.xml
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\System.Buffers.xml
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\System.Memory.xml
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.csproj.AssemblyReference.cache
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.First_page.resources
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.main.resources
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.Properties.Resources.resources
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.csproj.GenerateResource.cache
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.csproj.CoreCompileInputs.cache
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.csproj.CopyComplete
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.exe
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.pdb
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.Register.resources
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.Reset_password.resources
