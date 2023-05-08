@@ -28,12 +28,14 @@ namespace Trading_Broker_Project
 
         }
         public static readonly User[] Users = CsvToUser.GetUsers();
+        public static User curruser;
         public static bool Login(string username,string password)
         {
             First_page f = new First_page();
 
             var user = Users.FirstOrDefault(u => u.Username == username && u.Password == password); // lamba funkcija u postane user ce je username in password isti kot uporabnikov
             // unnecessary if :)
+            curruser = user;
             if (user != null)
             {
                 

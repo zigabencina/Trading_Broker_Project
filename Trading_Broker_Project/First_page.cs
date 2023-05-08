@@ -74,7 +74,15 @@ namespace Trading_Broker_Project
 
         private void password_TextChanged(object sender, EventArgs e)
         {
+            
+        }
+        private void password_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
 
+                login_Click(this, new EventArgs());
+            }
         }
     }
 }

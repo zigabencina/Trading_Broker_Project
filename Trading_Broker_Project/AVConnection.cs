@@ -29,5 +29,6 @@ namespace Trading_Broker_Project
             File.WriteAllText("stockdata.csv", results); // zapisemo v lokalno datoteko
         }
 
+
     }
 }

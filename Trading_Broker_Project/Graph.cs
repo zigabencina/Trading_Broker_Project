@@ -18,39 +18,33 @@ namespace Trading_Broker_Project
         public Graph()
         {
             InitializeComponent();
-        }
 
+
+
+        }
         private void chart1_Click(object sender, EventArgs e)
         {
 
         }
-        public static void addToGraph()
+        private void Graph_Load(object sender, EventArgs e)
         {
-            AVConnection conn = new AVConnection("demo"); // definiramo objekt in damo v funkcijo api kljuc, ki smo ga dobili na spletni strani --> apikey = ZL4LHLXWTVKH4U4Q
-            conn.SaveCSVFromURL("IBM");// povemo za kero valuto bi radi dobili podatke
+            Price[] prices = CsvToPrice.GetPrice();
+            fillChart(prices);
 
-            
-            string coloumn1;
-            string coloumn2;
-            var path = "stockdata.csv";
-            using (TextFieldParser csvReader = new TextFieldParser(path))
+        }
+        private void fillChart(Price[] prices)
+        {
+            for (int i = 0; i < prices.Length; i++)
             {
-                csvReader.CommentTokens = new string[] { "#" };
-                csvReader.SetDelimiters(new string[] { "," });
-                csvReader.HasFieldsEnclosedInQuotes = true;
-
-                // Skip the row with the column names
-                csvReader.ReadLine();
-
-                while (!csvReader.EndOfData)
-                {
-                    // Read current line fields, pointer moves to the next line.
-                    string[] fields = csvReader.ReadFields();
-                    coloumn1 = fields[0];
-                    coloumn2 = fields[1];
-                }
-
+                graph_price.Series["price"].Points.AddXY(prices[i].timestamp, prices[i].close); // nafila chart
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
+
+

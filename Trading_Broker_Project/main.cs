@@ -31,5 +31,34 @@ namespace Trading_Broker_Project
         {
 
         }
+
+        private void accbal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void logout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void main_Load(object sender, EventArgs e)
+        {
+            accbal.Text = Program.curruser.Balance + "";
+        }
+
+        private void graph_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Graph g = new Graph();
+
+            g.ShowDialog();
+            this.Show();
+        }
     }
 }
