@@ -69,8 +69,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AVConnection.cs" />
+    <Compile Include="Question.cs" />
     <Compile Include="CsvToPrice.cs" />
     <Compile Include="CsvToUser.cs" />
+    <Compile Include="Evaluation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evaluation.Designer.cs">
+      <DependentUpon>Evaluation.cs</DependentUpon>
+    </Compile>
     <Compile Include="First_page.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +112,9 @@
       <DependentUpon>Reset_password.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="Evaluation.resx">
+      <DependentUpon>Evaluation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="First_page.resx">
       <DependentUpon>First_page.cs</DependentUpon>
     </EmbeddedResource>

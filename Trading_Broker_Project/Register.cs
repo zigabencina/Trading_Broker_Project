@@ -46,6 +46,7 @@ namespace Trading_Broker_Project
 
         private void register_button_Click(object sender, EventArgs e)
         {
+            
             Random r = new Random();
             User user = new User();
             user.Name = namebox.Text;
@@ -54,12 +55,15 @@ namespace Trading_Broker_Project
             user.Username = username.Text;
             user.Password = password.Text;
             user.Country = country.Text;
+            user.Balance = r.Next(100,1000001);
             CsvToUser.AddUser(user);
+
+            MessageBox.Show("Nov uporabnik je bil ustvarjen!");
+
+            this.Hide();
+            
         }
 
-        private void password_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

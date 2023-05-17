@@ -37,6 +37,7 @@
             this.k = new System.Windows.Forms.PictureBox();
             this.accbal = new System.Windows.Forms.Label();
             this.logout = new System.Windows.Forms.Button();
+            this.op = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -135,6 +136,15 @@
             this.logout.UseVisualStyleBackColor = true;
             this.logout.Click += new System.EventHandler(this.logout_Click);
             // 
+            // op
+            // 
+            this.op.Location = new System.Drawing.Point(1055, 154);
+            this.op.Name = "op";
+            this.op.Size = new System.Drawing.Size(175, 43);
+            this.op.TabIndex = 9;
+            this.op.Text = "( in development ) Orders and positions";
+            this.op.UseVisualStyleBackColor = true;
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -142,6 +152,7 @@
             this.BackColor = System.Drawing.Color.Silver;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1271, 633);
+            this.Controls.Add(this.op);
             this.Controls.Add(this.logout);
             this.Controls.Add(this.accbal);
             this.Controls.Add(this.label2);
@@ -174,5 +185,6 @@
         private System.Windows.Forms.PictureBox k;
         private System.Windows.Forms.Label accbal;
         private System.Windows.Forms.Button logout;
+        private System.Windows.Forms.Button op;
     }
 }

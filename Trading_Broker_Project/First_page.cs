@@ -59,7 +59,7 @@ namespace Trading_Broker_Project
         {
             //register class / form
             this.Hide();
-            Register r = new Register();
+            Evaluation r = new Evaluation();
             r.ShowDialog();
             this.Show();
         }
@@ -76,12 +76,15 @@ namespace Trading_Broker_Project
         {
             
         }
-        private void password_KeyDown(object sender, KeyEventArgs e)
+        private void password_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            if (e.KeyChar == (char)Keys.Enter)
             {
+                // Simulate a button click
+                login.PerformClick();
 
-                login_Click(this, new EventArgs());
+                // Prevent the Enter key from being processed further
+                e.Handled = true;
             }
         }
     }

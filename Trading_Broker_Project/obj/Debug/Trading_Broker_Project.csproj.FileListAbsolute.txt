@@ -33,3 +33,4 @@ C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\
 C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.Register.resources
 C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.Reset_password.resources
 C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.Graph.resources
+C:\Users\zigab\OneDrive\Documents\Trading_Broker_Project\Trading_Broker_Project\obj\Debug\Trading_Broker_Project.Evaluation.resources

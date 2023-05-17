@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.graph_price = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,18 +39,17 @@
             // 
             // graph_price
             // 
-            chartArea2.Name = "ChartArea1";
-            this.graph_price.ChartAreas.Add(chartArea2);
-            this.graph_price.Location = new System.Drawing.Point(28, 60);
+            chartArea1.Name = "ChartArea1";
+            this.graph_price.ChartAreas.Add(chartArea1);
+            this.graph_price.Location = new System.Drawing.Point(52, 60);
             this.graph_price.Name = "graph_price";
-            this.graph_price.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Grayscale;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.Name = "price";
-            series2.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.String;
-            series2.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            this.graph_price.Series.Add(series2);
-            this.graph_price.Size = new System.Drawing.Size(919, 547);
+            this.graph_price.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Candlestick;
+            series1.Name = "Daily";
+            series1.YValuesPerPoint = 4;
+            this.graph_price.Series.Add(series1);
+            this.graph_price.Size = new System.Drawing.Size(1170, 547);
             this.graph_price.TabIndex = 0;
             this.graph_price.Text = "Price";
             this.graph_price.Click += new System.EventHandler(this.chart1_Click);
