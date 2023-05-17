@@ -71,7 +71,10 @@ namespace Trading_Broker_Project
         {
             return password.Text;
         }
-
+        public void clear()
+        {
+            password.Text = string.Empty;
+        }
         private void password_TextChanged(object sender, EventArgs e)
         {
             

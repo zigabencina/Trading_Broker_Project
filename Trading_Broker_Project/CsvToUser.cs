@@ -11,7 +11,7 @@ namespace Trading_Broker_Project
 {
     class CsvToUser
     {
-        private const string CsvPot = "C:\\Users\\zigab\\OneDrive\\Documents\\Trading_Broker_Project\\Trading_Broker_Project\\users.csv";
+        private const string CsvPot = "users.csv";
 
         public static void AddUser(User user)
         {

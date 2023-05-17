@@ -39,7 +39,9 @@ namespace Trading_Broker_Project
 
         private void logout_Click(object sender, EventArgs e)
         {
+            
             this.Close();
+
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -50,6 +52,7 @@ namespace Trading_Broker_Project
         private void main_Load(object sender, EventArgs e)
         {
             accbal.Text = Program.curruser.Balance + "";
+            labelGreet.Text = "Pozdravljen " + Program.curruser.Name + "!";
         }
 
         private void graph_btn_Click(object sender, EventArgs e)
@@ -59,6 +62,11 @@ namespace Trading_Broker_Project
 
             g.ShowDialog();
             this.Show();
+        }
+
+        private void k_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -38,6 +38,7 @@
             this.accbal = new System.Windows.Forms.Label();
             this.logout = new System.Windows.Forms.Button();
             this.op = new System.Windows.Forms.Button();
+            this.labelGreet = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -85,7 +86,7 @@
             // 
             // graph_btn
             // 
-            this.graph_btn.Location = new System.Drawing.Point(36, 154);
+            this.graph_btn.Location = new System.Drawing.Point(36, 220);
             this.graph_btn.Name = "graph_btn";
             this.graph_btn.Size = new System.Drawing.Size(82, 43);
             this.graph_btn.TabIndex = 4;
@@ -98,7 +99,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(38, 122);
+            this.label2.Location = new System.Drawing.Point(38, 171);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(143, 19);
             this.label2.TabIndex = 5;
@@ -107,18 +108,19 @@
             // k
             // 
             this.k.BackColor = System.Drawing.Color.White;
-            this.k.Location = new System.Drawing.Point(36, 116);
+            this.k.Location = new System.Drawing.Point(36, 165);
             this.k.Name = "k";
             this.k.Size = new System.Drawing.Size(294, 32);
             this.k.TabIndex = 6;
             this.k.TabStop = false;
+            this.k.Click += new System.EventHandler(this.k_Click);
             // 
             // accbal
             // 
             this.accbal.AutoSize = true;
             this.accbal.BackColor = System.Drawing.Color.White;
             this.accbal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accbal.Location = new System.Drawing.Point(187, 122);
+            this.accbal.Location = new System.Drawing.Point(187, 171);
             this.accbal.Name = "accbal";
             this.accbal.Size = new System.Drawing.Size(18, 19);
             this.accbal.TabIndex = 7;
@@ -128,9 +130,9 @@
             // 
             // logout
             // 
-            this.logout.Location = new System.Drawing.Point(123, 154);
+            this.logout.Location = new System.Drawing.Point(465, 550);
             this.logout.Name = "logout";
-            this.logout.Size = new System.Drawing.Size(82, 43);
+            this.logout.Size = new System.Drawing.Size(340, 43);
             this.logout.TabIndex = 8;
             this.logout.Text = "Logout";
             this.logout.UseVisualStyleBackColor = true;
@@ -145,6 +147,17 @@
             this.op.Text = "( in development ) Orders and positions";
             this.op.UseVisualStyleBackColor = true;
             // 
+            // labelGreet
+            // 
+            this.labelGreet.AutoSize = true;
+            this.labelGreet.BackColor = System.Drawing.Color.Silver;
+            this.labelGreet.Font = new System.Drawing.Font("Arial Narrow", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGreet.Location = new System.Drawing.Point(36, 114);
+            this.labelGreet.Name = "labelGreet";
+            this.labelGreet.Size = new System.Drawing.Size(61, 31);
+            this.labelGreet.TabIndex = 10;
+            this.labelGreet.Text = "user";
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -152,6 +165,7 @@
             this.BackColor = System.Drawing.Color.Silver;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1271, 633);
+            this.Controls.Add(this.labelGreet);
             this.Controls.Add(this.op);
             this.Controls.Add(this.logout);
             this.Controls.Add(this.accbal);
@@ -186,5 +200,6 @@
         private System.Windows.Forms.Label accbal;
         private System.Windows.Forms.Button logout;
         private System.Windows.Forms.Button op;
+        private System.Windows.Forms.Label labelGreet;
     }
 }

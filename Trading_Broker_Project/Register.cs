@@ -52,6 +52,7 @@ namespace Trading_Broker_Project
             user.Name = namebox.Text;
             user.Surename = surenamebox.Text;
             user.AccountNumber = r.Next(1000000,9999999);
+            user.IBAN = iban.Text;
             user.Username = username.Text;
             user.Password = password.Text;
             user.Country = country.Text;
@@ -60,6 +61,7 @@ namespace Trading_Broker_Project
 
             MessageBox.Show("Nov uporabnik je bil ustvarjen!");
 
+            this.Hide();
             this.Hide();
             
         }
